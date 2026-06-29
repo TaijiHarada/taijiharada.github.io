@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Taiji Harada — Mechanical Engineer</title>
+  <meta name="description" content="Mechanical engineer (B.S. + M.S.) specializing in robotics, automation, controls, and mechanical design. Portfolio of engineering projects." />
+
+  <!-- Open Graph / link previews -->
+  <meta property="og:title" content="Taiji Harada — Mechanical Engineer" />
+  <meta property="og:description" content="Robotics, automation, controls, and mechanical design portfolio." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://taijiharada.github.io" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- ===== Header / Nav ===== -->
+  <header class="site-header" id="top">
+    <nav class="nav container">
+      <a href="#top" class="nav__brand">Taiji&nbsp;Harada</a>
+      <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== Hero ===== -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <p class="hero__eyebrow">Mechanical Engineer · Design &amp; Controls</p>
+        <h1 class="hero__title">Taiji Harada</h1>
+        <p class="hero__lead">
+          Mechanical engineer (B.S. + M.S., CS minor) working across mechanical design,
+          embedded controls, and automation. I build systems end-to-end — from hydraulics
+          and composites to firmware and custom software tooling.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#projects">View Projects</a>
+          <a class="btn btn--ghost" href="#contact">Get in Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section__title">About</h2>
+        <div class="about__grid">
+          <div class="about__text">
+            <p>
+              I'm a Design Engineer at Shakespeare Engineering with a B.S. and M.S. in
+              Mechanical Engineering and a CS minor from the University of Utah (3.9 GPA).
+              My work spans the full stack of a physical product: mechanical design and
+              manufacturing, embedded controls, and the software tooling that ties it together.
+            </p>
+            <p>
+              I'm currently looking for roles in <strong>robotics, automation,
+              aerospace/defense, and systems engineering</strong> — places where mechanical
+              intuition and a controls/software background both matter.
+            </p>
+          </div>
+          <aside class="about__facts">
+            <h3>Quick facts</h3>
+            <ul>
+              <li><span>Education</span> B.S. + M.S. Mechanical Engineering, CS minor — University of Utah (3.9 GPA)</li>
+              <li><span>Current</span> Design Engineer, Shakespeare Engineering</li>
+              <li><span>Focus</span> Robotics · Automation · Controls · Mechanical Design</li>
+              <li><span>Certs</span> SOLIDWORKS CSWA</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Projects ===== -->
+    <section class="section section--alt" id="projects">
+      <div class="container">
+        <h2 class="section__title">Projects</h2>
+        <p class="section__intro">
+          A mix of controls, mechanical design, research, and software tooling. Each
+          project lists the technical problem and what I built to solve it.
+        </p>
+        <div class="projects" id="projects-grid">
+          <!-- Cards rendered by js/main.js from js/projects.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Skills ===== -->
+    <section class="section" id="skills">
+      <div class="container">
+        <h2 class="section__title">Skills</h2>
+        <div class="skills" id="skills-grid">
+          <!-- Rendered by js/main.js from js/projects.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section class="section section--alt" id="contact">
+      <div class="container contact">
+        <h2 class="section__title">Contact</h2>
+        <p class="contact__lead">
+          Open to opportunities in robotics, automation, aerospace/defense, and systems
+          engineering. The fastest way to reach me is email.
+        </p>
+        <div class="contact__links">
+          <a class="contact__link" href="mailto:taiji@shakespeare-eng.com">
+            <span class="contact__label">Email</span>
+            <span class="contact__value">taiji@shakespeare-eng.com</span>
+          </a>
+          <a class="contact__link" href="https://www.linkedin.com/in/REPLACE-ME" target="_blank" rel="noopener">
+            <span class="contact__label">LinkedIn</span>
+            <span class="contact__value">linkedin.com/in/REPLACE-ME</span>
+          </a>
+          <a class="contact__link" href="https://github.com/TaijiHarada" target="_blank" rel="noopener">
+            <span class="contact__label">GitHub</span>
+            <span class="contact__value">github.com/TaijiHarada</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Taiji Harada. Built with plain HTML, CSS &amp; JS — hosted on GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <!-- Video lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox__close" aria-label="Close video">&times;</button>
+    <div class="lightbox__frame" id="lightbox-frame"></div>
+  </div>
+
+  <script src="js/projects.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
