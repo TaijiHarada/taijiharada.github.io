@@ -27,7 +27,7 @@ const PROJECTS = [
     tags: ["Embedded C", "PID Control", "PIC32", "Circuit Design"],
     role: "Solo project",
     problem:
-      "Drive a DC motor to follow a commanded position trajectory in real time, with accurate current sensing and stable closed-loop behavior — all on a resource-constrained microcontroller with no operating system.",
+      "Drive a DC motor to follow a commanded position trajectory in real time, with accurate current sensing and stable closed-loop behavior. This all on a resource-constrained microcontroller with no operating system.",
     built:
       "Wrote bare-metal C firmware for a PIC32 implementing a PID position controller with an inner current-control loop. Designed and built the signal-conditioning circuitry for current measurement, configured timer-driven interrupt service routines for deterministic control timing, and hand-tuned the PID gains for fast, stable tracking with minimal overshoot.",
     images: [
@@ -57,7 +57,7 @@ const PROJECTS = [
     tags: ["Robotics", "Composites", "Prototyping", "Testing"],
     role: "Utah Wearable Robotics Lab",
     problem:
-      "Build wearable rehabilitation devices that are strong, light, and comfortable enough for real human use — requiring tight integration of mechanical design, advanced materials, and iterative human-centered testing.",
+      "Build wearable rehabilitation devices that are strong, light, and comfortable enough for real human use. This requires tight integration of mechanical design, advanced materials, and iterative human-centered testing.",
     built:
       "Designed, manufactured, and tested wearable rehabilitation devices in the Utah Wearable Robotics Lab. Produced forged carbon-fiber composite components for high strength-to-weight, and ran iterative design–build–test cycles to refine fit, actuation, and performance.",
     images: [
@@ -72,7 +72,7 @@ const PROJECTS = [
     tags: ["3D Printing", "Circuit Fabrication", "Troubleshooting"],
     role: "MudBots",
     problem:
-      "Get large-format concrete 3D printers operational and reliable — bridging the electronics, software, and mechanical systems that have to work together for a print to succeed.",
+      "Get large-format concrete 3D printers operational and reliable, bridging the electronics, software, and mechanical systems that have to work together for a print to succeed.",
     built:
       "Fabricated control circuitry, installed and configured the printer software, and diagnosed and resolved hardware/software issues across the machines. Worked hands-on at the intersection of electronics, firmware, and mechanical systems to bring printers to a working state.",
     images: [
