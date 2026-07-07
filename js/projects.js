@@ -31,7 +31,7 @@ const PROJECTS = [
     built:
       "Wrote bare-metal C firmware for a PIC32 implementing a PID position controller with an inner current-control loop. Designed and built the signal-conditioning circuitry for current measurement, configured timer-driven interrupt service routines for deterministic control timing, and hand-tuned the PID gains for fast, stable tracking with minimal overshoot.",
     images: [
-      { src: "assets/img/pic32-placeholder.svg", alt: "PIC32 motor controller bench setup" }
+      { src: "assets/img/Pic.png", alt: "PIC32 motor controller bench setup" }
     ],
     video: null
   },
@@ -46,7 +46,7 @@ const PROJECTS = [
     built:
       "Worked in a team of six to design a custom hydraulic scissor-lift maintenance platform tailored to the D10's geometry. Contributed to mechanical design and structural sizing in SOLIDWORKS, hydraulic actuation, and direct customer communication to validate requirements and constraints throughout the project.",
     images: [
-      { src: "assets/img/d10-placeholder.svg", alt: "D10 adjustable maintenance platform" }
+      { src: "assets/img/poster.png", alt: "D10 adjustable maintenance platform" }
     ],
     video: null
   },
@@ -61,7 +61,7 @@ const PROJECTS = [
     built:
       "Designed, manufactured, and tested wearable rehabilitation devices in the Utah Wearable Robotics Lab. Produced forged carbon-fiber composite components for high strength-to-weight, and ran iterative design–build–test cycles to refine fit, actuation, and performance.",
     images: [
-      { src: "assets/img/wearable-placeholder.svg", alt: "Wearable robotics rehabilitation device" }
+      { src: "assets/img/neckBrace.png", alt: "Wearable robotics rehabilitation device" }
     ],
     video: null
   },
@@ -76,7 +76,7 @@ const PROJECTS = [
     built:
       "Fabricated control circuitry, installed and configured the printer software, and diagnosed and resolved hardware/software issues across the machines. Worked hands-on at the intersection of electronics, firmware, and mechanical systems to bring printers to a working state.",
     images: [
-      { src: "assets/img/mudbots-placeholder.svg", alt: "MudBots concrete 3D printer" }
+      { src: "assets/img/print.jpg", alt: "MudBots concrete 3D printer" }
     ],
     video: null
   },
@@ -91,7 +91,7 @@ const PROJECTS = [
     built:
       "Built custom internal tooling to automate the slow parts of the workflow: Revit add-ins (C#) that run verification checks against models, a Python tool that extracts structured data from engineering PDFs into Excel, and automated Excel calculation tools that replace manual computation. The result is faster turnaround and fewer transcription errors.",
     images: [
-      { src: "assets/img/tooling-placeholder.svg", alt: "Internal engineering software tooling" }
+      { src: "assets/img/spreadsheetPic.png", alt: "Internal engineering software tooling" }
     ],
     video: null
   }
